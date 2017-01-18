@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="test.bwie.com.a7niuvideo.MainActivity">
+    <ImageView
+        android:id="@+id/iv"
+        android:visibility="visible"
+        android:src="@mipmap/ic_launcher"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"/>
+
+    <com.pili.pldroid.player.widget.PLVideoView
+        android:visibility="gone"
+        android:id="@+id/PLVideoView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_gravity="center" />
+
+
+    <!--<TextView-->
+    <!--android:background="#FFC4F403"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent" />-->
+
+</RelativeLayout>
